@@ -1,0 +1,58 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-weight: 400;
+    color: grey;
+    line-height: 1.8rem;
+    letter-spacing: 0.4rem;
+}
+.paralex-img1{
+    background-image: url("./images/mountian-2.jpg");
+    height: 100vh;
+    
+    
+}
+.paralex-img1 span{
+    color:whitesmoke
+}
+.paralex-img2{
+    background-image: url("./images/mountain.jpg");
+    min-height: 400px;
+}
+
+.paralex-img3{
+    background-image: url("./images/1261630.webp");
+    min-height: 400px;
+}
+.paralex-img1,.paralex-img2,.paralex-img3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size:cover ;
+    background-attachment: fixed;
+
+}
+.ptext{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light{
+    background-color:rgba(255, 255, 255, 0.705);
+}
+.section-dark{
+    background-color:rgba(255, 255, 255, 0.705);
+    color:grey;
+}
+.border{
+   font-size: 2em;
+    color: #fff;
+    padding: 20px;
+}
+   
